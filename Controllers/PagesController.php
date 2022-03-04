@@ -22,13 +22,14 @@ class PagesController
     public function delete()
     {
         App::get("database")->delete($_POST, "user");
-        header("location: /pdo/");
+        redirect('/');
     }
     public function createUser()
     {
+
         App::get("database")->insert([
-            'name' => $_POST['name']
+            'name' => request('name')
         ], 'user');
-        header("location: /pdo/");
+        redirect('/');
     }
 }
