@@ -1,4 +1,5 @@
 <?php
+use core\App;
 require 'functions.php';
 // require 'core/Router.php';
 // require 'core/Request.php';

@@ -26,9 +26,8 @@ class Router
     public function direct($uri, $method)
     {
         if (array_key_exists($uri, $this->routes[$method])) {
-            $explodedArr = explode("@", $this->routes[$method][$uri]);
+            $explodedArr = $this->routes[$method][$uri];
             $this->callMethod($explodedArr[0], $explodedArr[1]);
-            // return $this->routes[$method][$uri];
         } else {
             die("404 page");
         }

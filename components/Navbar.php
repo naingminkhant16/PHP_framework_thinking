@@ -1,6 +1,6 @@
 <nav>
-    <a href="/pdo/">Home</a>
-    <a href="/pdo/index.php/about">About</a>
-    <a href="/pdo/index.php/contact">Contact</a>
-    <a href="/pdo/index.php/customers">Customers</a>
+    <a href="/frameworkthinking/">Home</a>
+    <a href="/frameworkthinking/index.php/about">About</a>
+    <a href="/frameworkthinking/index.php/contact">Contact</a>
+    <a href="/frameworkthinking/index.php/customers">Customers</a>
 </nav>
